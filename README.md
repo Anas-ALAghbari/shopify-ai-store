@@ -1,45 +1,45 @@
-# 🛍️ Shopify AI-Powered E-Commerce Store & Shopping Agent (E-Commerce AI OS)
+# 🛍️ Shopify AI-Powered E-Commerce Store & Shopping Agent
 
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Anas%20AL--Aghbari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-shopify--ai--store-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-ALAghbari/shopify-ai-store)
 [![Notion Connected](https://img.shields.io/badge/Notion-Workspace%20Connected-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so)
 
-موقع وتطبيق **Shopify AI-Powered E-Commerce Store & Shopping Agent** (النظام التشغيلي الذكي للتجارة الإلكترونية - E-Commerce AI OS)، وهو متجر إلكتروني احترافي متكامل مدعوم بـ **AI Shopping Agent** ذكي لمساعدة العملاء واقتراح المنتجات المناسبة عبر **Shopify Storefront API**.
+**Shopify AI-Powered E-Commerce Store & Shopping Agent** (E-Commerce AI OS) is a full-featured, commercial-grade production e-commerce system powered by an autonomous **AI Shopping Agent** that assists customers, provides intelligent product recommendations, and handles instant checkout routing via the **Shopify Storefront GraphQL API**.
 
 ---
 
-## 👨‍💻 المطور وشخصية المشروع (Developer & Brand Specs)
+## 👨‍💻 Developer & Brand Specifications
 
-- **المطور ورئيس المشروع**: [Anas AL-Aghbari (LinkedIn Profile)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
-- **اسم المشروع الرسمي**: `Shopify AI-Powered E-Commerce Store & Shopping Agent`
-- **الشعار العربي**: *"متجر التجارة الإلكترونية الاحترافي المدعوم بمساعد التسوق الذكي"*
-- **مكونات المتجر الرئيسية**:
-  1. ⚡ **أدوات وإلكترونيات ذكية (Smart Tech & Gadgets)**
-  2. 🏠 **مستلزمات المنزل والمطبخ (Home & Lifestyle)**
-  3. 🎒 **أدوات سفر وإكسسوارات شخصية (Travel & Daily Essentials)**
-- **الألوان الرسمية**: `Dark Slate` (#0F172A), `Electric Blue` (#3B82F6), `Purple Accent` (#8B5CF6)
-- **العملة المقبولة**: USD ($) / SAR (ر.س)
+- **Developer & Project Lead**: [Anas AL-Aghbari (LinkedIn Profile)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
+- **Official Project Name**: `Shopify AI-Powered E-Commerce Store & Shopping Agent`
+- **Slogan**: *"The Professional E-Commerce Store Powered by Autonomous AI Shopping Assistant"*
+- **Core Store Collections**:
+  1. ⚡ **Smart Tech & Electronics** (Smart Gadgets & Headphones)
+  2. 🏠 **Home & Lifestyle** (Kitchenware & Comfort Essentials)
+  3. 🎒 **Travel & Daily Essentials** (Smart Luggage & Accessories)
+- **Official Brand Palette**: `Dark Slate` (#0F172A), `Electric Blue` (#3B82F6), `Purple Accent` (#8B5CF6)
+- **Accepted Currency**: USD ($) / SAR (r.s)
 
 ---
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
+## 🛠️ Technology Stack
 
-- **Frontend**: Next.js 14, React 18, TypeScript, Tailwind CSS, shadcn/ui, Lucide Icons.
+- **Frontend**: Next.js 14 (App Router), React 18, TypeScript, Tailwind CSS, Lucide Icons.
 - **Backend & APIs**: Shopify Storefront GraphQL API, Node.js.
-- **AI Core**: AI Shopping Agent (LLM Function Calling), Vector Embeddings (pgvector), MCP (Model Context Protocol).
+- **AI Core Engine**: AI Shopping Agent (LLM Function Calling), Vector Embeddings (pgvector), Model Context Protocol (MCP).
 
 ---
 
-## 🚀 شجرة المجلدات والتطوير (Monorepo Architecture)
+## 🚀 Monorepo Architecture
 
 ```text
 shopify-ai-store/
-├── storefront/            # Next.js 14 Web Storefront & UI
+├── storefront/            # Next.js 14 Web Storefront & Commercial UI
 ├── ARCHITECTURE.md        # Master 30-Phase System Architecture Specification
 └── README.md              # Overview & Developer Documentation
 ```
 
 ---
 
-## 📝 الترخيص
-MIT License - تم التطوير والربط بواسطة **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)**
+## 📝 License
+MIT License - Architected & Built by **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)**
