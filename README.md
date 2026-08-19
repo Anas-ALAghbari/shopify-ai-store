@@ -1,57 +1,48 @@
-# 🛍️ Shopify AI-Powered E-Commerce Store & Shopping Agent
+# 🛒 OmniMarket AI — General E-Commerce Store & AI Shopping Assistant
 
-An end-to-end, high-conversion, professional e-commerce platform integrated with an **AI Shopping Agent** that assists customers, recommends personalized products, and automates store workflows using the **Shopify Storefront API**.
-
----
-
-## 🌟 Key Features
-
-### 1. 🎨 Modern High-Conversion Storefront
-- **Dynamic Hero Section**: Highlighting trending products & limited-time offers.
-- **Product Showcase & Variants**: High-res images, video previews, dynamic pricing, and variants.
-- **Mobile-First UX**: Lightning-fast, responsive UI tailored for modern mobile shoppers.
-- **Collections & Filters**: Search, sort by price/bestsellers, and instant category filters.
-- **Conversion Boosters**: Sticky Add-to-Cart, Trust badges, Reviews, & Frequently Asked Questions (FAQ).
-
-### 2. 🤖 AI Shopping Agent
-- **Personalized Recommendations**: Understands customer prompts (e.g., *"I need a birthday gift under $100 for a traveler"*).
-- **Product Matching Engine**: Queries store inventory in real-time via GraphQL/Storefront API.
-- **Direct Checkout Routing**: Generates direct checkout cart links for recommended items.
-
-### 3. 📈 SEO & Marketing Optimization
-- Optimized Meta tags, OpenGraph schemas, and fast loading performance.
-- Automated Cart recovery & Email capture popups.
+**OmniMarket AI** هو متجر إلكتروني عام واحترافي شامل لكل الأدوات والمستلزمات، مدعوم بـ **AI Shopping Agent** ذكي لمساعدة العملاء واقتراح المنتجات المناسبة عبر **Shopify Storefront API**.
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🎨 الهوية البصرية وشخصية المتجر (Brand Identity)
+
+- **اسم المتجر**: `OmniMarket AI` (متجر أومني الموحد)
+- **الشعار العربي**: *"متجرك الشامل لكل الأدوات والمستلزمات الذكية"*
+- **نوع المتجر**: متجر عام (General Marketplace) يضم أقسام مختلفة:
+  1. ⚡ **أدوات وإلكترونيات ذكية (Smart Tech & Gadgets)**
+  2. 🏠 **مستلزمات المنزل والمكتب (Home & Lifestyle)**
+  3. 🎒 **أدوات سفر وإكسسوارات شخصية (Travel & Daily Essentials)**
+- **الألوان الرسمية**:
+  - `Dark Slate`: `#0F172A`
+  - `Electric Blue`: `#3B82F6`
+  - `Purple Accent`: `#8B5CF6`
+  - `Background`: `#F8FAFC`
+- **العملة المقبولة**: USD ($) / SAR (ر.س)
+
+---
+
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+
+- **Frontend**: Next.js 14, React 18, TypeScript, Tailwind CSS, shadcn/ui, Lucide Icons.
+- **Backend & APIs**: Shopify Storefront GraphQL API, Node.js.
+- **AI Core**: AI Shopping Agent (LLM Function Calling), Vector Embeddings (pgvector), MCP (Model Context Protocol).
+
+---
+
+## 🚀 شجرة المجلدات والتطوير (Monorepo Architecture)
 
 ```text
-[ Customer Interface ]
-         │
-         ├── Modern Storefront (HTML5, Vanilla CSS / Tailwind, JS ES6+)
-         ├── AI Shopping Agent (LLM Integration / Tool Calling)
-         ├── Shopify Storefront API (GraphQL / REST)
-         └── Conversion Analytics & SEO Engine
+shopify-ai-store/
+├── apps/
+│   └── storefront/            # Next.js 14 Web Storefront
+├── packages/
+│   ├── shopify-api/           # Storefront API Client
+│   └── ai-agent/              # AI Shopping & Recommendation Engine
+├── ARCHITECTURE.md            # Master 30-Phase System Architecture Specification
+└── README.md                  # Overview & Documentation
 ```
 
 ---
 
-## 🚀 Getting Started
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Anas-ALAghbari/shopify-ai-store.git
-   cd shopify-ai-store
-   ```
-
-2. **Open locally**:
-   Open `index.html` in your browser or run a dev server:
-   ```bash
-   npx serve .
-   ```
-
----
-
-## 📝 License
-MIT License - Built with ❤️ by **Anas AL-Aghbari**
+## 📝 الترخيص
+MIT License - تم التطوير والربط بواسطة **Anas AL-Aghbari**
