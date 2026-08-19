@@ -41,5 +41,5 @@ shopify-ai-store/
 
 ---
 
-## 📝 License
-MIT License - Architected & Built by **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)**
+## 🔒 Commercial License & Ownership
+Copyright © 2026 **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)**. All Rights Reserved. Proprietary & Commercial Software License.
