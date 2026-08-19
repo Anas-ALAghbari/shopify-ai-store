@@ -12,49 +12,58 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info */}
           <div className="space-y-4 md:col-span-2">
-            <div className="flex items-center space-x-2 space-x-reverse">
+            <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white">
                 <Sparkles className="w-5 h-5" />
               </div>
               <span className="font-extrabold text-xl text-white tracking-tight">Shopify AI Store</span>
             </div>
             <p className="text-slate-400 text-xs sm:text-sm max-w-md leading-relaxed">
-              Shopify AI-Powered E-Commerce Store & Shopping Agent — متجر إلكتروني احترافي متكامل مجهز بأحدث تقنيات التجارة الإلكترونية ومساعد الذكاء الاصطناعي الذكي، مربوط برمجياً عبر Shopify Storefront API و GitHub.
+              Shopify AI-Powered E-Commerce Store & Shopping Agent — A production-grade commercial e-commerce engine integrated with autonomous Multi-Agent recommendation tools and Shopify Storefront API.
             </p>
-            <div className="flex items-center space-x-3 space-x-reverse pt-2">
+            <div className="flex items-center space-x-3 pt-2">
               <a
                 href="https://github.com/Anas-ALAghbari/shopify-ai-store"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center space-x-2 space-x-reverse bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 text-xs px-3.5 py-2 rounded-xl transition-all"
+                className="inline-flex items-center space-x-2 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 text-xs px-3.5 py-2 rounded-xl transition-all"
               >
                 <Code2 className="w-4 h-4 text-blue-400" />
-                <span>المستودع في GitHub</span>
+                <span>GitHub Repository</span>
                 <ExternalLink className="w-3 h-3 text-slate-500" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/anas-al-aghbari-71070440a/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center space-x-2 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 text-xs px-3.5 py-2 rounded-xl transition-all"
+              >
+                <ExternalLink className="w-4 h-4 text-blue-400" />
+                <span>LinkedIn Profile</span>
               </a>
             </div>
           </div>
 
           {/* Quick Links */}
           <div className="space-y-3">
-            <h4 className="font-bold text-white text-xs uppercase tracking-wider">أقسام المتجر العام</h4>
+            <h4 className="font-bold text-white text-xs uppercase tracking-wider">Store Categories</h4>
             <ul className="space-y-2 text-xs text-slate-400">
-              <li><a href="#" className="hover:text-blue-400">التقنية والإلكترونيات الذكية</a></li>
-              <li><a href="#" className="hover:text-blue-400">المنزل والمطبخ العصري</a></li>
-              <li><a href="#" className="hover:text-blue-400">مستلزمات السفر والأدوات الجانبية</a></li>
-              <li><a href="#" className="hover:text-blue-400">توصيات الذكاء الاصطناعي</a></li>
+              <li><a href="#" className="hover:text-blue-400">Smart Tech & Electronics</a></li>
+              <li><a href="#" className="hover:text-blue-400">Home & Living Essentials</a></li>
+              <li><a href="#" className="hover:text-blue-400">Travel & Lifestyle Gear</a></li>
+              <li><a href="#" className="hover:text-blue-400">AI Shopping Recommendations</a></li>
             </ul>
           </div>
 
           {/* Guarantee Badges */}
           <div className="space-y-3">
-            <h4 className="font-bold text-white text-xs uppercase tracking-wider">الربط والضمان</h4>
+            <h4 className="font-bold text-white text-xs uppercase tracking-wider">Verification</h4>
             <div className="bg-slate-900 border border-slate-800 p-3 rounded-xl space-y-2 text-xs">
-              <div className="flex items-center space-x-2 space-x-reverse text-emerald-400 font-semibold">
+              <div className="flex items-center space-x-2 text-emerald-400 font-semibold">
                 <ShieldCheck className="w-4 h-4" />
                 <span>Shopify API & GitHub Verified</span>
               </div>
-              <p className="text-[11px] text-slate-500">تم التأسيس والمربط التلقائي بواسطة AI Coding Agent</p>
+              <p className="text-[11px] text-slate-500">Architected & Engineered by Anas AL-Aghbari</p>
             </div>
           </div>
 
@@ -62,11 +71,9 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-          <p>© 2026 OmniMarket AI — جميع الحقوق محفوظة لـ Anas AL-Aghbari.</p>
-          <div className="flex items-center space-x-1 space-x-reverse mt-4 sm:mt-0">
-            <span>تم الإنجاز والبرمجة بـ</span>
-            <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" />
-            <span>باستخدام Next.js & Shopify API</span>
+          <p>© 2026 Shopify AI-Powered E-Commerce Store & Shopping Agent. All rights reserved.</p>
+          <div className="flex items-center space-x-1 mt-4 sm:mt-0">
+            <span>Built with ❤️ using Next.js 14 & Shopify Storefront API</span>
           </div>
         </div>
 

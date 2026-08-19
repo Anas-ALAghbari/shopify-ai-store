@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Product } from '../data/products';
-import { X, Trash2, ShoppingBag, ArrowLeft, ShieldCheck } from 'lucide-react';
+import { X, Trash2, ShoppingBag, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export interface CartItem {
   product: Product;
@@ -33,16 +33,16 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       {/* Backdrop */}
       <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-sm transition-opacity" onClick={onClose}></div>
 
-      <div className="fixed inset-y-0 left-0 max-w-full flex">
-        <div className="w-screen max-w-md bg-slate-900 border-r border-slate-800 text-white shadow-2xl flex flex-col">
+      <div className="fixed inset-y-0 right-0 max-w-full flex">
+        <div className="w-screen max-w-md bg-slate-900 border-l border-slate-800 text-white shadow-2xl flex flex-col">
           
           {/* Header */}
           <div className="p-5 border-b border-slate-800 flex items-center justify-between">
-            <div className="flex items-center space-x-2 space-x-reverse">
+            <div className="flex items-center space-x-2">
               <ShoppingBag className="w-5 h-5 text-blue-400" />
-              <h2 className="text-lg font-bold text-slate-100">سلة التسوق</h2>
+              <h2 className="text-lg font-bold text-slate-100">Shopping Cart</h2>
               <span className="bg-slate-800 text-slate-300 text-xs px-2.5 py-0.5 rounded-full font-semibold">
-                {items.reduce((a, b) => a + b.quantity, 0)} عناصر
+                {items.reduce((a, b) => a + b.quantity, 0)} items
               </span>
             </div>
             <button onClick={onClose} className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800">
@@ -55,19 +55,19 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
             {items.length === 0 ? (
               <div className="text-center py-16 space-y-3">
                 <ShoppingBag className="w-12 h-12 text-slate-600 mx-auto animate-pulse" />
-                <p className="text-slate-400 font-medium">سلة التسوق فارغة حالياً</p>
+                <p className="text-slate-400 font-medium">Your cart is currently empty</p>
                 <button onClick={onClose} className="text-blue-400 text-xs font-semibold hover:underline">
-                  تصفح المنتجات وأضف ما يعجبك 🛒
+                  Browse Catalog & Add Items 🛒
                 </button>
               </div>
             ) : (
               items.map((item) => (
-                <div key={item.product.id} className="flex items-center space-x-3 space-x-reverse bg-slate-950 p-3.5 rounded-xl border border-slate-800">
+                <div key={item.product.id} className="flex items-center space-x-3 bg-slate-950 p-3.5 rounded-xl border border-slate-800">
                   <img src={item.product.image} alt={item.product.name} className="w-16 h-16 rounded-lg object-cover bg-slate-900 shrink-0" />
-                  <div className="flex-1 min-w-0 text-right">
+                  <div className="flex-1 min-w-0 text-left">
                     <h4 className="font-semibold text-slate-200 text-xs line-clamp-1">{item.product.name}</h4>
                     <span className="text-blue-400 font-bold text-sm block mt-1">${item.product.price}</span>
-                    <div className="flex items-center space-x-2 space-x-reverse mt-2">
+                    <div className="flex items-center space-x-2 mt-2">
                       <button onClick={() => onUpdateQuantity(item.product.id, -1)} className="w-6 h-6 rounded bg-slate-800 text-slate-300 hover:bg-slate-700 flex items-center justify-center font-bold text-xs">-</button>
                       <span className="text-xs font-bold text-slate-200 px-1">{item.quantity}</span>
                       <button onClick={() => onUpdateQuantity(item.product.id, 1)} className="w-6 h-6 rounded bg-slate-800 text-slate-300 hover:bg-slate-700 flex items-center justify-center font-bold text-xs">+</button>
@@ -85,19 +85,19 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
           {items.length > 0 && (
             <div className="p-5 border-t border-slate-800 bg-slate-950 space-y-4">
               <div className="flex items-center justify-between text-slate-300 text-sm">
-                <span>المجموع الكلي:</span>
+                <span>Subtotal:</span>
                 <span className="text-2xl font-black text-white">${totalAmount}</span>
               </div>
-              <div className="flex items-center space-x-2 space-x-reverse text-emerald-400 text-xs">
+              <div className="flex items-center space-x-2 text-emerald-400 text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                <span>دفع آمن وتأكيد فوري عبر Shopify API</span>
+                <span>Encrypted Shopify API Secure Checkout</span>
               </div>
               <button
-                onClick={() => alert(`سيتم تحويلك إلى صفحة الدفع الآمنة لمشروع OmniMarket AI بقيمة $${totalAmount}`)}
-                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-blue-600/20 flex items-center justify-center space-x-2 space-x-reverse text-sm"
+                onClick={() => alert(`Redirecting to Shopify Secure Checkout for $${totalAmount}`)}
+                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-blue-600/20 flex items-center justify-center space-x-2 text-sm"
               >
-                <span>متابعة إتمام الدفع (Checkout)</span>
-                <ArrowLeft className="w-4 h-4" />
+                <span>Proceed to Checkout</span>
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           )}

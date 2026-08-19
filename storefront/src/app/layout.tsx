@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Shopify AI-Powered E-Commerce Store & Shopping Agent',
-  description: 'متجر إلكتروني احترافي متكامل مع مساعد تسوق ذكي مدعوم بالذكاء الاصطناعي ومربط عبر Shopify Storefront API و Next.js 14.',
+  description: 'Commercial production-grade e-commerce engine integrated with an autonomous AI Shopping Agent, high-conversion UI, and Shopify Storefront GraphQL API.',
   keywords: ['Shopify AI Store', 'AI Shopping Agent', 'E-Commerce AI OS', 'Next.js 14', 'TypeScript'],
 };
 
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="en" dir="ltr">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

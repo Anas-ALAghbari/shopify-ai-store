@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { ShoppingBag, Search, Bot, Sparkles, Heart, Menu, X } from 'lucide-react';
+import { ShoppingBag, Bot, Sparkles, Menu, X } from 'lucide-react';
 
 interface NavbarProps {
   cartCount: number;
@@ -26,12 +26,12 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center justify-between h-16 sm:h-20">
           
           {/* Logo & Brand */}
-          <div className="flex items-center space-x-3 space-x-reverse cursor-pointer" onClick={() => onSelectCategory('all')}>
+          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => onSelectCategory('all')}>
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-blue-500/25">
               <Sparkles className="w-6 h-6 text-white animate-pulse" />
             </div>
             <div>
-              <div className="flex items-center space-x-2 space-x-reverse">
+              <div className="flex items-center space-x-2">
                 <span className="font-extrabold text-xl sm:text-2xl tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent">
                   Shopify AI
                 </span>
@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center space-x-1 space-x-reverse text-sm font-medium">
+          <nav className="hidden md:flex items-center space-x-1 text-sm font-medium">
             <button
               onClick={() => onSelectCategory('all')}
               className={`px-4 py-2 rounded-lg transition-all ${
@@ -53,7 +53,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : 'text-slate-300 hover:text-white hover:bg-slate-800'
               }`}
             >
-              جميع المنتجات
+              All Products
             </button>
             <button
               onClick={() => onSelectCategory('tech')}
@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : 'text-slate-300 hover:text-white hover:bg-slate-800'
               }`}
             >
-              ⚡ التقنية والإلكترونيات
+              ⚡ Tech & Gadgets
             </button>
             <button
               onClick={() => onSelectCategory('home')}
@@ -73,7 +73,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : 'text-slate-300 hover:text-white hover:bg-slate-800'
               }`}
             >
-              🏠 المنزل والمطبخ
+              🏠 Home & Living
             </button>
             <button
               onClick={() => onSelectCategory('travel')}
@@ -83,20 +83,20 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : 'text-slate-300 hover:text-white hover:bg-slate-800'
               }`}
             >
-              🎒 مستلزمات السفر
+              🎒 Travel Gear
             </button>
           </nav>
 
           {/* Action Buttons */}
-          <div className="flex items-center space-x-3 space-x-reverse">
+          <div className="flex items-center space-x-3">
             
             {/* AI Shopping Agent Button */}
             <button
               onClick={onOpenAI}
-              className="relative group bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white font-medium text-xs sm:text-sm px-3.5 sm:px-4 py-2 rounded-xl shadow-lg shadow-purple-500/20 hover:shadow-purple-500/35 transition-all flex items-center space-x-2 space-x-reverse"
+              className="relative group bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white font-medium text-xs sm:text-sm px-3.5 sm:px-4 py-2 rounded-xl shadow-lg shadow-purple-500/20 hover:shadow-purple-500/35 transition-all flex items-center space-x-2"
             >
               <Bot className="w-4 h-4 text-purple-200 group-hover:rotate-12 transition-transform" />
-              <span>مساعد AI التسوق</span>
+              <span>AI Shopping Agent</span>
               <span className="flex h-2 w-2 relative">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
@@ -107,7 +107,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenCart}
               className="relative p-2.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/60 transition-all"
-              aria-label="السلة"
+              aria-label="Cart"
             >
               <ShoppingBag className="w-5 h-5" />
               {cartCount > 0 && (
@@ -133,27 +133,27 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="md:hidden py-4 border-t border-slate-800 space-y-2">
             <button
               onClick={() => { onSelectCategory('all'); setMobileMenuOpen(false); }}
-              className="block w-full text-right px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
+              className="block w-full text-left px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
             >
-              جميع المنتجات
+              All Products
             </button>
             <button
               onClick={() => { onSelectCategory('tech'); setMobileMenuOpen(false); }}
-              className="block w-full text-right px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
+              className="block w-full text-left px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
             >
-              ⚡ التقنية والإلكترونيات
+              ⚡ Tech & Gadgets
             </button>
             <button
               onClick={() => { onSelectCategory('home'); setMobileMenuOpen(false); }}
-              className="block w-full text-right px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
+              className="block w-full text-left px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
             >
-              🏠 المنزل والمطبخ
+              🏠 Home & Living
             </button>
             <button
               onClick={() => { onSelectCategory('travel'); setMobileMenuOpen(false); }}
-              className="block w-full text-right px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
+              className="block w-full text-left px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-800"
             >
-              🎒 مستلزمات السفر
+              🎒 Travel Gear
             </button>
           </div>
         )}
