@@ -1,22 +1,23 @@
 # 🛒 OmniMarket AI — General E-Commerce Store & AI Shopping Assistant
 
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Anas%20AL--Aghbari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-shopify--ai--store-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-ALAghbari/shopify-ai-store)
+[![Notion Connected](https://img.shields.io/badge/Notion-Workspace%20Connected-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so)
+
 **OmniMarket AI** هو متجر إلكتروني عام واحترافي شامل لكل الأدوات والمستلزمات، مدعوم بـ **AI Shopping Agent** ذكي لمساعدة العملاء واقتراح المنتجات المناسبة عبر **Shopify Storefront API**.
 
 ---
 
-## 🎨 الهوية البصرية وشخصية المتجر (Brand Identity)
+## 👨‍💻 المطور وشخصية المتجر (Developer & Brand Specs)
 
+- **المطور والرئيس التنفيذي**: [Anas AL-Aghbari (LinkedIn Profile)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
 - **اسم المتجر**: `OmniMarket AI` (متجر أومني الموحد)
 - **الشعار العربي**: *"متجرك الشامل لكل الأدوات والمستلزمات الذكية"*
 - **نوع المتجر**: متجر عام (General Marketplace) يضم أقسام مختلفة:
   1. ⚡ **أدوات وإلكترونيات ذكية (Smart Tech & Gadgets)**
-  2. 🏠 **مستلزمات المنزل والمكتب (Home & Lifestyle)**
+  2. 🏠 **مستلزمات المنزل والمطبخ (Home & Lifestyle)**
   3. 🎒 **أدوات سفر وإكسسوارات شخصية (Travel & Daily Essentials)**
-- **الألوان الرسمية**:
-  - `Dark Slate`: `#0F172A`
-  - `Electric Blue`: `#3B82F6`
-  - `Purple Accent`: `#8B5CF6`
-  - `Background`: `#F8FAFC`
+- **الألوان الرسمية**: `Dark Slate` (#0F172A), `Electric Blue` (#3B82F6), `Purple Accent` (#8B5CF6)
 - **العملة المقبولة**: USD ($) / SAR (ر.س)
 
 ---
@@ -33,16 +34,12 @@
 
 ```text
 shopify-ai-store/
-├── apps/
-│   └── storefront/            # Next.js 14 Web Storefront
-├── packages/
-│   ├── shopify-api/           # Storefront API Client
-│   └── ai-agent/              # AI Shopping & Recommendation Engine
-├── ARCHITECTURE.md            # Master 30-Phase System Architecture Specification
-└── README.md                  # Overview & Documentation
+├── storefront/            # Next.js 14 Web Storefront & UI
+├── ARCHITECTURE.md        # Master 30-Phase System Architecture Specification
+└── README.md              # Overview & Developer Documentation
 ```
 
 ---
 
 ## 📝 الترخيص
-MIT License - تم التطوير والربط بواسطة **Anas AL-Aghbari**
+MIT License - تم التطوير والربط بواسطة **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)**
