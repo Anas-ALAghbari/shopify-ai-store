@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAI, onExploreClick }) => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 space-x-reverse bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full backdrop-blur-sm">
             <Zap className="w-4 h-4 text-blue-400 animate-bounce" />
-            <span>متجر أومني العام الشامل + مدعوم بالذكاء الاصطناعي 🤖</span>
+            <span>Shopify AI-Powered E-Commerce Store & Shopping Agent 🤖</span>
           </div>
 
           {/* Main Title */}

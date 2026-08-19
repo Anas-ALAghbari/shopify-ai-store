@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'OmniMarket AI — متجر إلكتروني عام ومساعد تسوق ذكي',
-  description: 'متجر إلكتروني عام شامل لكل الأدوات والمستلزمات العصرية في التقنية والمنزل والسفر مع مساعد ذكاء اصطناعي تفاعلي ومربط عبر Shopify API.',
-  keywords: ['OmniMarket AI', 'Shopify Store', 'AI Shopping Agent', 'Next.js 14', 'E-commerce'],
+  title: 'Shopify AI-Powered E-Commerce Store & Shopping Agent',
+  description: 'متجر إلكتروني احترافي متكامل مع مساعد تسوق ذكي مدعوم بالذكاء الاصطناعي ومربط عبر Shopify Storefront API و Next.js 14.',
+  keywords: ['Shopify AI Store', 'AI Shopping Agent', 'E-Commerce AI OS', 'Next.js 14', 'TypeScript'],
 };
 
 export default function RootLayout({

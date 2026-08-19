@@ -70,7 +70,7 @@ export default function Home() {
       {/* Top Announcement Bar */}
       <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900 text-white text-[11px] sm:text-xs py-2 px-4 text-center font-medium border-b border-blue-800/40 flex items-center justify-center space-x-2 space-x-reverse">
         <Sparkles className="w-3.5 h-3.5 text-blue-300 animate-spin" />
-        <span>عروض متجر OmniMarket AI العام: شحن شامل وتوصيات حية بذكاء اصطناعي 🤖</span>
+        <span>Shopify AI-Powered E-Commerce Store & Shopping Agent 🤖</span>
       </div>
 
       {/* Navbar Header */}

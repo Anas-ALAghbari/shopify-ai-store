@@ -16,10 +16,10 @@ export const Footer: React.FC = () => {
               <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white">
                 <Sparkles className="w-5 h-5" />
               </div>
-              <span className="font-extrabold text-xl text-white tracking-tight">OmniMarket AI</span>
+              <span className="font-extrabold text-xl text-white tracking-tight">Shopify AI Store</span>
             </div>
             <p className="text-slate-400 text-xs sm:text-sm max-w-md leading-relaxed">
-              متجر إلكتروني عام شامل مجهز بأحدث تقنيات التجارة الإلكترونية ومساعد الذكاء الاصطناعي الذكي، مربوط برمجياً عبر Shopify Storefront API و GitHub.
+              Shopify AI-Powered E-Commerce Store & Shopping Agent — متجر إلكتروني احترافي متكامل مجهز بأحدث تقنيات التجارة الإلكترونية ومساعد الذكاء الاصطناعي الذكي، مربوط برمجياً عبر Shopify Storefront API و GitHub.
             </p>
             <div className="flex items-center space-x-3 space-x-reverse pt-2">
               <a

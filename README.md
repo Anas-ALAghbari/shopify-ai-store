@@ -1,19 +1,19 @@
-# 🛒 OmniMarket AI — General E-Commerce Store & AI Shopping Assistant
+# 🛍️ Shopify AI-Powered E-Commerce Store & Shopping Agent (E-Commerce AI OS)
 
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Anas%20AL--Aghbari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-shopify--ai--store-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-ALAghbari/shopify-ai-store)
 [![Notion Connected](https://img.shields.io/badge/Notion-Workspace%20Connected-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so)
 
-**OmniMarket AI** هو متجر إلكتروني عام واحترافي شامل لكل الأدوات والمستلزمات، مدعوم بـ **AI Shopping Agent** ذكي لمساعدة العملاء واقتراح المنتجات المناسبة عبر **Shopify Storefront API**.
+موقع وتطبيق **Shopify AI-Powered E-Commerce Store & Shopping Agent** (النظام التشغيلي الذكي للتجارة الإلكترونية - E-Commerce AI OS)، وهو متجر إلكتروني احترافي متكامل مدعوم بـ **AI Shopping Agent** ذكي لمساعدة العملاء واقتراح المنتجات المناسبة عبر **Shopify Storefront API**.
 
 ---
 
-## 👨‍💻 المطور وشخصية المتجر (Developer & Brand Specs)
+## 👨‍💻 المطور وشخصية المشروع (Developer & Brand Specs)
 
-- **المطور والرئيس التنفيذي**: [Anas AL-Aghbari (LinkedIn Profile)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
-- **اسم المتجر**: `OmniMarket AI` (متجر أومني الموحد)
-- **الشعار العربي**: *"متجرك الشامل لكل الأدوات والمستلزمات الذكية"*
-- **نوع المتجر**: متجر عام (General Marketplace) يضم أقسام مختلفة:
+- **المطور ورئيس المشروع**: [Anas AL-Aghbari (LinkedIn Profile)](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
+- **اسم المشروع الرسمي**: `Shopify AI-Powered E-Commerce Store & Shopping Agent`
+- **الشعار العربي**: *"متجر التجارة الإلكترونية الاحترافي المدعوم بمساعد التسوق الذكي"*
+- **مكونات المتجر الرئيسية**:
   1. ⚡ **أدوات وإلكترونيات ذكية (Smart Tech & Gadgets)**
   2. 🏠 **مستلزمات المنزل والمطبخ (Home & Lifestyle)**
   3. 🎒 **أدوات سفر وإكسسوارات شخصية (Travel & Daily Essentials)**

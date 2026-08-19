@@ -23,7 +23,7 @@ export const AIAssistantModal: React.FC<AIAssistantModalProps> = ({ isOpen, onCl
     {
       id: 'msg-1',
       sender: 'ai',
-      text: 'مرحباً بك! أنا مساعد تسوق الذكاء الاصطناعي الخاص بمتجر OmniMarket AI 🤖. كيف يمكنني مساعدتك اليوم؟ يمكنك كتابة ميزانيتك، احتياجك، أو نوع المنتجات التي تبحث عنها!',
+      text: 'مرحباً بك! أنا مساعد تسوق الذكاء الاصطناعي الخاص بـ Shopify AI-Powered E-Commerce Store & Shopping Agent 🤖. كيف يمكنني مساعدتك اليوم؟ يمكنك كتابة ميزانيتك، احتياجك، أو نوع المنتجات التي تبحث عنها!',
       recommendedProducts: [MOCK_PRODUCTS[0], MOCK_PRODUCTS[3]]
     }
   ]);

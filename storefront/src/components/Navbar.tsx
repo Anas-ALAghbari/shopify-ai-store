@@ -33,13 +33,13 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center space-x-2 space-x-reverse">
                 <span className="font-extrabold text-xl sm:text-2xl tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent">
-                  OmniMarket
+                  Shopify AI
                 </span>
                 <span className="bg-blue-500/20 text-blue-400 border border-blue-500/30 text-xs font-semibold px-2 py-0.5 rounded-full">
-                  AI Store
+                  E-Commerce OS
                 </span>
               </div>
-              <p className="text-[10px] text-slate-400 hidden sm:block">متجرك الشامل الذكي لكل الأدوات</p>
+              <p className="text-[10px] text-slate-400 hidden sm:block">Shopify AI-Powered E-Commerce Store & Shopping Agent</p>
             </div>
           </div>
 
