@@ -49,4 +49,4 @@ Execution Phases Overview
  Execution Strategy
 1. Core First: Build a fully functional e-commerce store without AI.
 2. AI Layering: Integrate LLM Tool Calling, Vector Search, and Multi-Agent Orchestration incrementally.
-3. **Enterprise Readiness: Lock down security, MCP server, observability, testing, and production deployment.
+3. Enterprise Readiness: Lock down security, MCP server, observability, testing, and production deployment.
